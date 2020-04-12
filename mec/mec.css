@@ -1,12 +1,13 @@
 
 body{
     margin: 20px;
+    background-color: lemonchiffon;
 }
 
 
 
 .navbar-toggler-icon {
-    background-color: green;
+    background-color: yellowgreen;
     border-radius: 100%;
 }
 
@@ -36,16 +37,28 @@ body{
 }
 
 
+.card-body{
+    background-color: khaki;
+}
 
 
+.card-title {
+    justify-content: center;
+    text-align: center;
+    font-size: 25px;
+}
 
+.card-text {
+    justify-content: center;
+    text-align: center;
+    font-size: 17px;
+}
 
-
-
-
-
-
-
+a, a:hover {
+    
+    color: black;
+    text-decoration: none;
+}
 
 
 
