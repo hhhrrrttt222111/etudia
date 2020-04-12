@@ -4,6 +4,60 @@ body{
 }
 
 
+
+.navbar-toggler-icon {
+    background-color: green;
+    border-radius: 100%;
+}
+
+
+
+.nav-link, .nav-link:hover {
+    color: black;
+    font-size: 20px;
+    font-weight: 700;
+}
+.navbar-brand, .navbar-brand:hover {
+    color: black;
+    font-size: 35px;
+}
+
+.nav-item {
+    padding-right: 30px;
+}
+
 .decks {
     padding-top: 50px;
+    
 }
+
+.card-deck {
+    padding-top: 30px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.footer {
+    bottom: 10px;
+    padding-top: 20px;
+}
+
+.footer-heart{text-align:center;font-family: open sans, sans-serif;}
+
+.footer-heart a{
+    color: #453886;
+     text-decoration: none;}
+
+.emoji{vertical-align: middle;}
