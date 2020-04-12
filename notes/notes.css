@@ -39,12 +39,16 @@ ul {
     list-style-type: none;
   }
 
+li {
+    padding-top: 10px;
+}
 
 
 .link, .link:hover {
     text-decoration: none;
     color: #000;
     font-size: 20px;
+    
 }
 
 .btn-link, .btn-link:hover, .btn-link:visited, .btn-link:active {
