@@ -1,0 +1,106 @@
+@import url(https://fonts.googleapis.com/css?family=Raleway:600);
+ * {
+	 margin: 0;
+     padding: 0;
+     background-color: #ea2e49;
+	 box-sizing: border-box;
+}
+
+
+.navbar-toggler-icon {
+    background-color: green;
+    border-radius: 100%;
+}
+
+
+
+.nav-link, .nav-link:hover {
+    color: black;
+    font-size: 20px;
+    font-weight: 700;
+}
+.navbar-brand, .navbar-brand:hover {
+    color: black;
+    font-size: 35px;
+}
+
+.nav-item {
+    padding-right: 30px;
+}
+
+
+
+
+
+
+
+
+
+
+
+.welcome {
+     width: 100%;
+     height: 100vh;
+	 display: flex;
+	 align-items: center;
+	 justify-content: center;
+	 background-color: #ea2e49;
+}
+ h1 {
+	 color: #fff;
+	 font-family: 'Raleway', sans-serif;
+	 font-size: 52px;
+	 font-weight: 600;
+	 text-transform: uppercase;
+}
+ h1 span {
+	 display: inline-block;
+	 opacity: 0;
+	 transform: translateY(20px) rotate(90deg);
+	 transform-origin: left;
+	 animation: in 0.5s forwards;
+}
+ h1 span:nth-child(1) {
+	 animation-delay: 0.1s;
+}
+ h1 span:nth-child(2) {
+	 animation-delay: 0.2s;
+}
+ h1 span:nth-child(3) {
+	 animation-delay: 0.3s;
+}
+ h1 span:nth-child(4) {
+	 animation-delay: 0.4s;
+}
+ h1 span:nth-child(5) {
+	 animation-delay: 0.5s;
+}
+ h1 span:nth-child(6) {
+	 animation-delay: 0.6s;
+}
+ h1 span:nth-child(7) {
+	 animation-delay: 0.7s;
+}
+ @keyframes in {
+	 0% {
+		 opacity: 0;
+		 transform: translateY(50px) rotate(90deg);
+	}
+	 100% {
+		 opacity: 1;
+		 transform: translateY(0) rotate(0);
+	}
+}
+ 
+
+.footer {
+    background-color: #ea2e49;
+}
+
+.footer-heart{text-align:center;font-family: open sans, sans-serif;}
+
+.footer-heart a{
+    color: #453886;
+     text-decoration: none;}
+
+.emoji{vertical-align: middle;}
