@@ -1,8 +1,10 @@
 @import url(https://fonts.googleapis.com/css?family=Raleway:600);
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300&family=Oswald&display=swap');
+
  * {
 	 margin: 0;
      padding: 0;
-     background-color: #ea2e49;
+     background-color: #cc00cc;
 	 box-sizing: border-box;
 }
 
@@ -28,7 +30,13 @@
     padding-right: 30px;
 }
 
-
+.etudia {
+	position: relative;
+	bottom: 100px;
+	font-size: 90px;
+	font-family: 'Oswald', sans-serif;
+	letter-spacing: 15px;
+}
 
 
 .fa-github {
@@ -50,11 +58,12 @@
 	 display: flex;
 	 align-items: center;
 	 justify-content: center;
-	 background-color: #ea2e49;
+	 background-color: #cc00cc;
 }
  h1 {
-	 color: #fff;
-	 font-family: 'Raleway', sans-serif;
+	 color: #ffccff;
+	 font-family: 'Merriweather', serif;
+	 word-spacing: 20px;
 	 font-size: 52px;
 	 font-weight: 600;
 	 text-transform: uppercase;
@@ -100,13 +109,27 @@
  
 
 .footer {
-    background-color: #ea2e49;
+    background-color: #cc00cc;
 }
 
 .footer-heart{text-align:center;font-family: open sans, sans-serif;}
 
 .footer-heart a{
-    color: #453886;
+    color: #1aff1a;
      text-decoration: none;}
 
 .emoji{vertical-align: middle;}
+
+
+
+@media only screen and (max-width: 600px) {
+    
+
+  }
+
+  @media only screen 
+  and (min-device-width : 768px) 
+  and (max-device-width : 1024px) {
+   
+      
+}
