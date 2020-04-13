@@ -18,6 +18,12 @@ body {
 }
 
 
+.navbar-text {
+    font-size: 30px;
+    font-weight: 600;
+    padding-left: 100px;
+}
+
 @media only screen and (max-width: 600px) {
     .textbook {
         padding-top: 20px;
