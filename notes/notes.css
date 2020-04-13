@@ -65,11 +65,18 @@ li {
     background-color: darkcyan;
 }
 
+.buttons {
+    padding-top: 40px;
+    padding-left: 50px;
+    align-items: center;
+    display: inline-block;
+    justify-content: center;
+}
 
 
 .btn1  {
     padding: 1em 2.1em 1.1em;
-    border-radius: 3px;
+    border-radius: 100%;
     margin: 8px 8px 8px 8px;
     color: #fbdedb;
     background-color: #fbdedb;
