@@ -10,7 +10,7 @@
 
 
 .navbar-toggler-icon {
-    background-color: green;
+    background-color: #ff66ff;
     border-radius: 100%;
 }
 
@@ -123,13 +123,35 @@
 
 
 @media only screen and (max-width: 600px) {
-    
+    .etudia {
+		padding-left: 60px;
+		bottom: 80px;
+		font-size: 60px;
+		letter-spacing: 15px;
+	}
+	h1 {
+		padding-left: 30px;
+		word-spacing: 12px;
+		font-size: 42px;
+		font-weight: 500;
+	
+   }
 
   }
 
   @media only screen 
   and (min-device-width : 768px) 
   and (max-device-width : 1024px) {
-   
+	.etudia {
+		position: relative;
+		bottom: 200px;
+		font-size: 100px;
+	}
+	h1 {
+		color: #ffccff;
+
+		word-spacing: 20px;
+
+   }
       
 }

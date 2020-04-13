@@ -4,10 +4,8 @@ body{
     background-color: lemonchiffon;
 }
 
-
-
 .navbar-toggler-icon {
-    background-color: yellowgreen;
+    background-color: #bfff80;
     border-radius: 100%;
 }
 
@@ -15,12 +13,11 @@ body{
 
 .nav-link, .nav-link:hover {
     color: black;
-    font-size: 20px;
+    font-size: 30px;
     font-weight: 700;
 }
 .navbar-brand, .navbar-brand:hover {
     color: black;
-    font-size: 35px;
 }
 
 .nav-item {

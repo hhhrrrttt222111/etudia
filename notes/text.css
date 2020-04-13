@@ -1,3 +1,7 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@600&display=swap');  
+
+
 .textbook {
     padding-top: 100px;
     padding-right: 300px;
@@ -19,9 +23,11 @@ body {
 
 
 .navbar-text {
-    font-size: 30px;
+    font-size: 35px;
     font-weight: 600;
     padding-left: 100px;
+    letter-spacing: 3px;
+    font-family: 'Source Code Pro', monospace;
 }
 
 @media only screen and (max-width: 600px) {
@@ -43,6 +49,12 @@ body {
         padding-bottom: 30px;
         padding-left: 60px;
     } 
+    .navbar-text {
+        font-size: 30px;
+        font-weight: 600;
+        padding-right: 100px;
+    }
+    
     
       
 }
