@@ -1,5 +1,6 @@
 
-@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@600&display=swap');  
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@600&display=swap'); 
+@import url('https://fonts.googleapis.com/css2?family=Neucha&family=Special+Elite&display=swap'); 
 
 
 .textbook {
@@ -21,6 +22,17 @@ body {
     background-color: blanchedalmond
 }
 
+.card-header {
+    font-family: 'Special Elite', cursive;
+    font-weight: 800;
+}
+
+
+.card-title {
+    font-family: 'Neucha', cursive;
+    font-weight: 700;
+    letter-spacing: 3px;
+}
 
 .navbar-text {
     font-size: 35px;

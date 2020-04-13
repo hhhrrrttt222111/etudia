@@ -1,10 +1,15 @@
 
+@import url('https://fonts.googleapis.com/css2?family=Yanone+Kaffeesatz&display=swap');
+
+
 .navbar-toggler-icon {
-    background-color: green;
+    background-color: #ffcccc;
     border-radius: 100%;
 }
 
-
+body {
+    background-color: #ff8080;
+}
 
 .nav-link, .nav-link:hover {
     color: black;
@@ -21,7 +26,12 @@
 }
 
 .heading{
-    padding: 40px
+    padding: 40px;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+}
+
+h1 {
+    font-size: 40px;
 }
 
 
@@ -91,7 +101,7 @@
 
 
 .footer {
-    background-color: white;
+    background-color: #ff8080;
 }
 
 .footer-heart{text-align:center;font-family: open sans, sans-serif;}
