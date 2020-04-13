@@ -1,0 +1,55 @@
+.textbook {
+    padding-top: 100px;
+    padding-right: 300px;
+    padding-bottom: 80px;
+    padding-left: 300px;
+}
+
+body {
+    background-color: chocolate;
+}
+
+.card {
+    background-color: burlywood;
+}
+
+.card-body {
+    background-color: blanchedalmond
+}
+
+
+@media only screen and (max-width: 600px) {
+    .textbook {
+        padding-top: 20px;
+        padding-right: 30px;
+        padding-bottom: 30px;
+        padding-left: 30px;
+    }
+
+  }
+
+  @media only screen 
+  and (min-device-width : 768px) 
+  and (max-device-width : 1024px) {
+    .textbook {
+        padding-top: 40px;
+        padding-right: 60px;
+        padding-bottom: 30px;
+        padding-left: 60px;
+    } 
+    
+      
+}
+
+
+.footer {
+    background-color: chocolate;
+}
+
+.footer-heart{text-align:center;font-family: open sans, sans-serif;}
+
+.footer-heart a{
+    color: #453886;
+     text-decoration: none;}
+
+.emoji{vertical-align: middle;}
