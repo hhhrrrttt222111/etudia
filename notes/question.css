@@ -25,3 +25,8 @@
     font-weight: 500;
     padding-top: 6px;
 }
+
+.img-thumbnail {
+    height: 200px;
+    width: 300px;
+}
