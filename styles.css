@@ -19,12 +19,12 @@
 
 
 .nav-link, .nav-link:hover {
-    color: #b0bec5;
+    color: #DCEDC8;
     font-size: 20px;
     font-weight: 700;
 }
 .navbar-brand, .navbar-brand:hover {
-    color: black;
+    color: #DCEDC8;
     font-size: 35px;
 }
 
