@@ -30,6 +30,11 @@ body {
     font-size: 35px;
 }
 
+.navbar-toggler:focus {
+    outline: none;
+    box-shadow: none;
+}
+
 .nav-item {
     padding-right: 30px;
 }

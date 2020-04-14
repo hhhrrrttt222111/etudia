@@ -7,6 +7,11 @@ body {
     background-color: #ff8080;
 }
 
+.navbar-toggler:focus {
+    outline: none;
+    box-shadow: none;
+}
+
 .nav-link, .nav-link:hover {
     color: black;
     font-size: 20px;
