@@ -8,7 +8,7 @@
 }
 
 body {
-    background-color: gray;
+    background-color: #9e9e9e;
 }
 
 
@@ -54,7 +54,7 @@ li {
 
 .btn-link, .btn-link:hover, .btn-link:visited, .btn-link:active {
     font-size: 20px;
-    color: darkcyan;
+    color: #9e9e9e;
     text-decoration: none;
 }
 
@@ -63,7 +63,7 @@ li {
 }
 
 .card-body {
-    background-color: darkcyan;
+    background-color: #37474f;
 }
 
 .buttons {
@@ -77,12 +77,10 @@ li {
 
 .btn1  {
     padding: 1em 2.1em 1.1em;
-    border-radius: 100%;
     margin: 8px 8px 8px 8px;
-    color: #fbdedb;
-    background-color: #fbdedb;
+    color: black;
     display: inline-block;
-    background: #344c4c;
+    background: white;
     -webkit-transition: 0.3s;
     -moz-transition: 0.3s;
     -o-transition: 0.3s;
