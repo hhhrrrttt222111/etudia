@@ -1,7 +1,7 @@
 
 body{
-    margin: 20px;
     background-color: lemonchiffon;
+    box-sizing: border-box;
 }
 
 .custom-toggler .navbar-toggler-icon { 
@@ -27,6 +27,7 @@ body{
 
 .decks {
     padding-top: 50px;
+    margin: 20px;
     
 }
 
