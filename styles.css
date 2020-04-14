@@ -1,7 +1,7 @@
 @import url(https://fonts.googleapis.com/css?family=Raleway:600);
 @import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300&family=Oswald&display=swap');
 
- * {
+ body {
 	 margin: 0;
      padding: 0;
      background-color: #cc00cc;
@@ -10,9 +10,13 @@
 
 
 .navbar-toggler-icon {
-    background-color: #ff66ff;
-    border-radius: 100%;
+    color: #ff66ff;  
 }
+
+.custom-toggler .navbar-toggler-icon { 
+	background-image: url( 
+"data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(0, 128, 0, 0.8)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E"); 
+} 
 
 
 
