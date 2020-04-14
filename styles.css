@@ -1,5 +1,6 @@
 @import url(https://fonts.googleapis.com/css?family=Raleway:600);
 @import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300&family=Oswald&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
 
  body {
 	 margin: 0;
@@ -40,6 +41,24 @@
 	font-size: 90px;
 	font-family: 'Oswald', sans-serif;
 	letter-spacing: 15px;
+}
+
+
+.modal-body {
+	background-color: #8BC34A;
+	font-family: 'Indie Flower', cursive;
+	font-size: 30px;
+}
+
+.modal-title {
+	color: blanchedalmond;
+}
+.close {
+    color: blanchedalmond;
+}
+
+.modal-header {
+	background-color: #004D40;
 }
 
 

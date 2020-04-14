@@ -63,8 +63,9 @@ li {
 }
 
 .card-body {
-    background-color: #37474f;
+    background-color: #90a4ae;
 }
+
 
 .buttons {
     padding-top: 40px;
@@ -75,7 +76,7 @@ li {
 }
 
 .link {
-    color: wheat;
+    color: white;
 }
 
 
