@@ -81,6 +81,14 @@ a, a:hover {
         font-size: 23px;
         font-weight: 500;
     }
+    .decks {
+        padding-top: 10px;
+        margin: 20px;
+        
+    }
+    .card-deck {
+        padding-top: 10px;
+    }
 
   }
 
@@ -93,7 +101,14 @@ a, a:hover {
         font-size: 23px;
         font-weight: 500;
     }
-
+    .decks {
+        padding-top: 30px;
+        margin: 20px;
+        
+    }
+    .card-deck {
+        padding-top: 10px;
+    }
     
       
 }
